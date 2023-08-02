@@ -237,6 +237,7 @@ function createTable(rows, cols) {
 function fillTable(array) {
     let td = document.querySelectorAll('#bingo-table td');
     for (let i = 0; i < td.length; i++) {
+        rndVar = 334;
         el = td[i];
         el.textContent = array[i];
     }
